@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use Getopt::Std;
-use lib qw( /usr/lib/nagios/plugins );
+use lib qw( /usr/lib/multilib-plugins );
 use utils qw(%ERRORS $TIMEOUT &print_revision &support &usage);
 
 my @speeds;
