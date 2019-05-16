@@ -3,7 +3,7 @@
 use warnings;
 use strict;
 
-use lib qw( /usr/lib/nagios/plugins );
+use lib qw( /usr/lib/monitoring-plugins );
 use utils qw(%ERRORS $TIMEOUT &print_revision &support &usage);
 use List::Util qw(sum);
 use Getopt::Std;
